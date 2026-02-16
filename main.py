@@ -1,6 +1,10 @@
 #  uvicorn main:app --reload
 # uvicorn main:app --host 0.0.0.0 --reload
 
+
+# installing uv 
+# powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 import uvicorn
